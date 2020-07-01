@@ -1,0 +1,14 @@
+/* Week 4 04-01: Difference between display: none; and display: block; visibility: hidden; */
+
+span 
+{
+	display: block;
+	text-align: center;
+	color: #800000;
+	visibility: hidden;
+}
+td:active>span
+{
+	visibility: visible;
+}
+
